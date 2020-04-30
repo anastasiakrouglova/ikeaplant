@@ -1,4 +1,4 @@
-# ikeaplant
+# IKEA plant
 ## Concept
 
 Grijze steden, stikkende rook ... het is duidelijk: de wereld heeft wat meer planten nodig.
