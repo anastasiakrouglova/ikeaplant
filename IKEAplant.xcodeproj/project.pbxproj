@@ -7,23 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E30F376643314F3CCFA157D /* Pods_IKEAplant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD201D8DE5C9D89D6565B843 /* Pods_IKEAplant.framework */; };
+		FA152FFC2261215400F0FB9E /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA152FFB2261215400F0FB9E /* Plant.swift */; };
+		FA152FFE2261231900F0FB9E /* AllPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA152FFD2261231900F0FB9E /* AllPlants.swift */; };
+		FA153000226127DB00F0FB9E /* plants.json in Resources */ = {isa = PBXBuildFile; fileRef = FA152FFF226127DB00F0FB9E /* plants.json */; };
+		FA15300222612D4700F0FB9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15300122612D4700F0FB9E /* DetailViewController.swift */; };
+		FA3BF0572270C90A004C33A7 /* plantAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3BF0562270C90A004C33A7 /* plantAnimation.json */; };
 		FA925542224CE5DB002AB338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925541224CE5DB002AB338 /* AppDelegate.swift */; };
 		FA925544224CE5DB002AB338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA925543224CE5DB002AB338 /* ViewController.swift */; };
 		FA925547224CE5DB002AB338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA925545224CE5DB002AB338 /* Main.storyboard */; };
 		FA92554A224CE5DB002AB338 /* IKEAplant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA925548224CE5DB002AB338 /* IKEAplant.xcdatamodeld */; };
-		FA92554C224CE5DC002AB338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA92554B224CE5DC002AB338 /* Assets.xcassets */; };
 		FA92554F224CE5DC002AB338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA92554D224CE5DC002AB338 /* LaunchScreen.storyboard */; };
+		FAAA4D69227493F80013CAAB /* indoor plant_2_COL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4D66227493F50013CAAB /* indoor plant_2_COL.jpg */; };
+		FAAA4D6A227493F80013CAAB /* indoor plant_2_NOR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4D67227493F70013CAAB /* indoor plant_2_NOR.jpg */; };
+		FAAA4D6B227493F80013CAAB /* indoor plant_2_vl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4D68227493F80013CAAB /* indoor plant_2_vl.jpg */; };
+		FAAA4D6D2274942B0013CAAB /* 5.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4D6C2274941A0013CAAB /* 5.scn */; };
+		FAAA4D742274988F0013CAAB /* 8.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4D732274980B0013CAAB /* 8.scn */; };
+		FAAA4DAB2274E16A0013CAAB /* Arch41_037_ground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA32274E1670013CAAB /* Arch41_037_ground.jpg */; };
+		FAAA4DAC2274E16A0013CAAB /* archibase.net.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA42274E1680013CAAB /* archibase.net.txt */; };
+		FAAA4DAD2274E16A0013CAAB /* Arch41_017_bark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA52274E1680013CAAB /* Arch41_017_bark.jpg */; };
+		FAAA4DAE2274E16A0013CAAB /* Ground 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA62274E1690013CAAB /* Ground 1.jpg */; };
+		FAAA4DAF2274E16A0013CAAB /* Arch41_017_leaf_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA72274E1690013CAAB /* Arch41_017_leaf_bump.jpg */; };
+		FAAA4DB02274E16A0013CAAB /* Arch41_017_leaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA82274E1690013CAAB /* Arch41_017_leaf.jpg */; };
+		FAAA4DB12274E16A0013CAAB /* Arch41_017_bark_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DA92274E16A0013CAAB /* Arch41_017_bark_bump.jpg */; };
+		FAAA4DB22274E16A0013CAAB /* LFY60055.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DAA2274E16A0013CAAB /* LFY60055.jpg */; };
+		FAAA4DB42274E22D0013CAAB /* 6.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DB32274E1780013CAAB /* 6.scn */; };
+		FAAA4DBB2274E9650013CAAB /* Marble_r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DB82274E9640013CAAB /* Marble_r.jpg */; };
+		FAAA4DBC2274E9650013CAAB /* osa_Bark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DB92274E9640013CAAB /* osa_Bark.jpg */; };
+		FAAA4DBD2274E9650013CAAB /* osa_Soil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DBA2274E9650013CAAB /* osa_Soil.jpg */; };
+		FAAA4DBF2274E96A0013CAAB /* ant_Leaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DBE2274E9690013CAAB /* ant_Leaf.jpg */; };
+		FAAA4DC12274E9710013CAAB /* stones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DC02274E9710013CAAB /* stones.jpg */; };
+		FAAA4DC22274E97B0013CAAB /* 4.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DB72274E9500013CAAB /* 4.scn */; };
+		FAAA4DC42274E9A90013CAAB /* Plant palm N051017.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DC32274E9A90013CAAB /* Plant palm N051017.mtl */; };
+		FAAA4DD022757F4C0013CAAB /* opacity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCA22757F4A0013CAAB /* opacity.jpg */; };
+		FAAA4DD122757F4C0013CAAB /* Concre R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCB22757F4B0013CAAB /* Concre R.jpg */; };
+		FAAA4DD222757F4C0013CAAB /* color yl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCC22757F4B0013CAAB /* color yl.jpg */; };
+		FAAA4DD322757F4C0013CAAB /* Color gr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCD22757F4B0013CAAB /* Color gr.jpg */; };
+		FAAA4DD422757F4C0013CAAB /* ground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCE22757F4C0013CAAB /* ground.jpg */; };
+		FAAA4DD522757F4C0013CAAB /* pi4597 b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DCF22757F4C0013CAAB /* pi4597 b.jpg */; };
+		FAAA4DD722757F510013CAAB /* 7_1_24_d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DD622757F510013CAAB /* 7_1_24_d.jpg */; };
+		FAAA4DDA22757F590013CAAB /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DD822757F590013CAAB /* wood.jpg */; };
+		FAAA4DDB22757F590013CAAB /* wood bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DD922757F590013CAAB /* wood bump.jpg */; };
+		FAAA4DDD227580C30013CAAB /* 1.scn in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4DDC22757F680013CAAB /* 1.scn */; };
+		FAC619C32265D39600422D81 /* PlantsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC619C22265D39600422D81 /* PlantsCollectionViewCell.swift */; };
+		FAC619C52265D9DE00422D81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC619C42265D9DE00422D81 /* HomeViewController.swift */; };
+		FAC619C72265E8FE00422D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC619C62265E8FD00422D81 /* Assets.xcassets */; };
+		FAE8E4152270752300279B44 /* vegetable201.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E4122270752100279B44 /* vegetable201.mtl */; };
+		FAE8E4172270752300279B44 /* grass_texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E4142270752300279B44 /* grass_texture.jpg */; };
+		FAE8E41B2270A44800279B44 /* plant.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE8E41A2270A44800279B44 /* plant.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05977422E78236EF969498CF /* Pods-IKEAplant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKEAplant.release.xcconfig"; path = "Target Support Files/Pods-IKEAplant/Pods-IKEAplant.release.xcconfig"; sourceTree = "<group>"; };
+		BD201D8DE5C9D89D6565B843 /* Pods_IKEAplant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IKEAplant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F416ED8180221061FEDA5 /* Pods-IKEAplant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKEAplant.debug.xcconfig"; path = "Target Support Files/Pods-IKEAplant/Pods-IKEAplant.debug.xcconfig"; sourceTree = "<group>"; };
+		FA152FFB2261215400F0FB9E /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		FA152FFD2261231900F0FB9E /* AllPlants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlants.swift; sourceTree = "<group>"; };
+		FA152FFF226127DB00F0FB9E /* plants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plants.json; sourceTree = "<group>"; };
+		FA15300122612D4700F0FB9E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA3BF0562270C90A004C33A7 /* plantAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plantAnimation.json; sourceTree = "<group>"; };
 		FA92553E224CE5DB002AB338 /* IKEAplant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAplant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA925541224CE5DB002AB338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA925543224CE5DB002AB338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA925546224CE5DB002AB338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA925549224CE5DB002AB338 /* IKEAplant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IKEAplant.xcdatamodel; sourceTree = "<group>"; };
-		FA92554B224CE5DC002AB338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA92554E224CE5DC002AB338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA925550224CE5DC002AB338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAA4D66227493F50013CAAB /* indoor plant_2_COL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "indoor plant_2_COL.jpg"; sourceTree = "<group>"; };
+		FAAA4D67227493F70013CAAB /* indoor plant_2_NOR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "indoor plant_2_NOR.jpg"; sourceTree = "<group>"; };
+		FAAA4D68227493F80013CAAB /* indoor plant_2_vl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "indoor plant_2_vl.jpg"; sourceTree = "<group>"; };
+		FAAA4D6C2274941A0013CAAB /* 5.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 5.scn; sourceTree = "<group>"; };
+		FAAA4D732274980B0013CAAB /* 8.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 8.scn; sourceTree = "<group>"; };
+		FAAA4DA32274E1670013CAAB /* Arch41_037_ground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arch41_037_ground.jpg; sourceTree = "<group>"; };
+		FAAA4DA42274E1680013CAAB /* archibase.net.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = archibase.net.txt; sourceTree = "<group>"; };
+		FAAA4DA52274E1680013CAAB /* Arch41_017_bark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arch41_017_bark.jpg; sourceTree = "<group>"; };
+		FAAA4DA62274E1690013CAAB /* Ground 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ground 1.jpg"; sourceTree = "<group>"; };
+		FAAA4DA72274E1690013CAAB /* Arch41_017_leaf_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arch41_017_leaf_bump.jpg; sourceTree = "<group>"; };
+		FAAA4DA82274E1690013CAAB /* Arch41_017_leaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arch41_017_leaf.jpg; sourceTree = "<group>"; };
+		FAAA4DA92274E16A0013CAAB /* Arch41_017_bark_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arch41_017_bark_bump.jpg; sourceTree = "<group>"; };
+		FAAA4DAA2274E16A0013CAAB /* LFY60055.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LFY60055.jpg; sourceTree = "<group>"; };
+		FAAA4DB32274E1780013CAAB /* 6.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 6.scn; sourceTree = "<group>"; };
+		FAAA4DB72274E9500013CAAB /* 4.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 4.scn; sourceTree = "<group>"; };
+		FAAA4DB82274E9640013CAAB /* Marble_r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marble_r.jpg; sourceTree = "<group>"; };
+		FAAA4DB92274E9640013CAAB /* osa_Bark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osa_Bark.jpg; sourceTree = "<group>"; };
+		FAAA4DBA2274E9650013CAAB /* osa_Soil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = osa_Soil.jpg; sourceTree = "<group>"; };
+		FAAA4DBE2274E9690013CAAB /* ant_Leaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ant_Leaf.jpg; sourceTree = "<group>"; };
+		FAAA4DC02274E9710013CAAB /* stones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stones.jpg; sourceTree = "<group>"; };
+		FAAA4DC32274E9A90013CAAB /* Plant palm N051017.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Plant palm N051017.mtl"; sourceTree = "<group>"; };
+		FAAA4DCA22757F4A0013CAAB /* opacity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opacity.jpg; sourceTree = "<group>"; };
+		FAAA4DCB22757F4B0013CAAB /* Concre R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Concre R.jpg"; sourceTree = "<group>"; };
+		FAAA4DCC22757F4B0013CAAB /* color yl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "color yl.jpg"; sourceTree = "<group>"; };
+		FAAA4DCD22757F4B0013CAAB /* Color gr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Color gr.jpg"; sourceTree = "<group>"; };
+		FAAA4DCE22757F4C0013CAAB /* ground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ground.jpg; sourceTree = "<group>"; };
+		FAAA4DCF22757F4C0013CAAB /* pi4597 b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pi4597 b.jpg"; sourceTree = "<group>"; };
+		FAAA4DD622757F510013CAAB /* 7_1_24_d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7_1_24_d.jpg; sourceTree = "<group>"; };
+		FAAA4DD822757F590013CAAB /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		FAAA4DD922757F590013CAAB /* wood bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood bump.jpg"; sourceTree = "<group>"; };
+		FAAA4DDC22757F680013CAAB /* 1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 1.scn; sourceTree = "<group>"; };
+		FAC619C22265D39600422D81 /* PlantsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAC619C42265D9DE00422D81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAC619C62265E8FD00422D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE8E4122270752100279B44 /* vegetable201.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vegetable201.mtl; sourceTree = "<group>"; };
+		FAE8E4142270752300279B44 /* grass_texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass_texture.jpg; sourceTree = "<group>"; };
+		FAE8E41A2270A44800279B44 /* plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plant.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +117,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E30F376643314F3CCFA157D /* Pods_IKEAplant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240C2DF66ED92689D336C852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F85F416ED8180221061FEDA5 /* Pods-IKEAplant.debug.xcconfig */,
+				05977422E78236EF969498CF /* Pods-IKEAplant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA1530032261C46900F0FB9E /* 3Dmodels */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4DC722757F2A0013CAAB /* ficus benjamina */,
+				FAAA4D8A2274D8950013CAAB /* dracaena */,
+				FAAA4D63227493D60013CAAB /* ficus lyrata */,
+				FAAA4DA02274E13C0013CAAB /* epipremnum */,
+				FAE8E410227074D200279B44 /* ravaena palm */,
+			);
+			path = 3Dmodels;
+			sourceTree = "<group>";
+		};
 		FA925535224CE5DB002AB338 = {
 			isa = PBXGroup;
 			children = (
 				FA925540224CE5DB002AB338 /* IKEAplant */,
 				FA92553F224CE5DB002AB338 /* Products */,
+				240C2DF66ED92689D336C852 /* Pods */,
+				FFB2D3ED03C431B08F82183C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +166,140 @@
 		FA925540224CE5DB002AB338 /* IKEAplant */ = {
 			isa = PBXGroup;
 			children = (
-				FA925541224CE5DB002AB338 /* AppDelegate.swift */,
-				FA925543224CE5DB002AB338 /* ViewController.swift */,
-				FA925545224CE5DB002AB338 /* Main.storyboard */,
-				FA92554B224CE5DC002AB338 /* Assets.xcassets */,
-				FA92554D224CE5DC002AB338 /* LaunchScreen.storyboard */,
-				FA925550224CE5DC002AB338 /* Info.plist */,
-				FA925548224CE5DB002AB338 /* IKEAplant.xcdatamodeld */,
+				FAE8E4192270A43B00279B44 /* animations */,
+				FA925556224CE6A8002AB338 /* Support Files */,
+				FA925557224CE6C2002AB338 /* Model */,
+				FA1530032261C46900F0FB9E /* 3Dmodels */,
+				FA92555A224CE6F3002AB338 /* View */,
+				FA925558224CE6D2002AB338 /* Controller */,
 			);
 			path = IKEAplant;
+			sourceTree = "<group>";
+		};
+		FA925556224CE6A8002AB338 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA92554D224CE5DC002AB338 /* LaunchScreen.storyboard */,
+				FA925550224CE5DC002AB338 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		FA925557224CE6C2002AB338 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA925548224CE5DB002AB338 /* IKEAplant.xcdatamodeld */,
+				FA152FFF226127DB00F0FB9E /* plants.json */,
+				FA152FFB2261215400F0FB9E /* Plant.swift */,
+				FA152FFD2261231900F0FB9E /* AllPlants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA925558224CE6D2002AB338 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA925541224CE5DB002AB338 /* AppDelegate.swift */,
+				FA925543224CE5DB002AB338 /* ViewController.swift */,
+				FA15300122612D4700F0FB9E /* DetailViewController.swift */,
+				FAC619C22265D39600422D81 /* PlantsCollectionViewCell.swift */,
+				FAC619C42265D9DE00422D81 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA92555A224CE6F3002AB338 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC619C62265E8FD00422D81 /* Assets.xcassets */,
+				FA925545224CE5DB002AB338 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAAA4D63227493D60013CAAB /* ficus lyrata */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4D6C2274941A0013CAAB /* 5.scn */,
+				FAAA4D66227493F50013CAAB /* indoor plant_2_COL.jpg */,
+				FAAA4D67227493F70013CAAB /* indoor plant_2_NOR.jpg */,
+				FAAA4D68227493F80013CAAB /* indoor plant_2_vl.jpg */,
+			);
+			path = "ficus lyrata";
+			sourceTree = "<group>";
+		};
+		FAAA4D8A2274D8950013CAAB /* dracaena */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4DC02274E9710013CAAB /* stones.jpg */,
+				FAAA4DBE2274E9690013CAAB /* ant_Leaf.jpg */,
+				FAAA4DB82274E9640013CAAB /* Marble_r.jpg */,
+				FAAA4DB92274E9640013CAAB /* osa_Bark.jpg */,
+				FAAA4DBA2274E9650013CAAB /* osa_Soil.jpg */,
+				FAAA4DC32274E9A90013CAAB /* Plant palm N051017.mtl */,
+				FAAA4DB72274E9500013CAAB /* 4.scn */,
+			);
+			path = dracaena;
+			sourceTree = "<group>";
+		};
+		FAAA4DA02274E13C0013CAAB /* epipremnum */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4DB32274E1780013CAAB /* 6.scn */,
+				FAAA4DA92274E16A0013CAAB /* Arch41_017_bark_bump.jpg */,
+				FAAA4DA52274E1680013CAAB /* Arch41_017_bark.jpg */,
+				FAAA4DA72274E1690013CAAB /* Arch41_017_leaf_bump.jpg */,
+				FAAA4DA82274E1690013CAAB /* Arch41_017_leaf.jpg */,
+				FAAA4DA32274E1670013CAAB /* Arch41_037_ground.jpg */,
+				FAAA4DA42274E1680013CAAB /* archibase.net.txt */,
+				FAAA4DA62274E1690013CAAB /* Ground 1.jpg */,
+				FAAA4DAA2274E16A0013CAAB /* LFY60055.jpg */,
+			);
+			path = epipremnum;
+			sourceTree = "<group>";
+		};
+		FAAA4DC722757F2A0013CAAB /* ficus benjamina */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4DD922757F590013CAAB /* wood bump.jpg */,
+				FAAA4DD822757F590013CAAB /* wood.jpg */,
+				FAAA4DD622757F510013CAAB /* 7_1_24_d.jpg */,
+				FAAA4DCD22757F4B0013CAAB /* Color gr.jpg */,
+				FAAA4DCC22757F4B0013CAAB /* color yl.jpg */,
+				FAAA4DCB22757F4B0013CAAB /* Concre R.jpg */,
+				FAAA4DCE22757F4C0013CAAB /* ground.jpg */,
+				FAAA4DCA22757F4A0013CAAB /* opacity.jpg */,
+				FAAA4DCF22757F4C0013CAAB /* pi4597 b.jpg */,
+				FAAA4DDC22757F680013CAAB /* 1.scn */,
+			);
+			path = "ficus benjamina";
+			sourceTree = "<group>";
+		};
+		FAE8E410227074D200279B44 /* ravaena palm */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E4142270752300279B44 /* grass_texture.jpg */,
+				FAAA4D732274980B0013CAAB /* 8.scn */,
+				FAE8E4122270752100279B44 /* vegetable201.mtl */,
+			);
+			path = "ravaena palm";
+			sourceTree = "<group>";
+		};
+		FAE8E4192270A43B00279B44 /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8E41A2270A44800279B44 /* plant.json */,
+				FA3BF0562270C90A004C33A7 /* plantAnimation.json */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		FFB2D3ED03C431B08F82183C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD201D8DE5C9D89D6565B843 /* Pods_IKEAplant.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA925553224CE5DC002AB338 /* Build configuration list for PBXNativeTarget "IKEAplant" */;
 			buildPhases = (
+				41C893CC30FA8AB814810A31 /* [CP] Check Pods Manifest.lock */,
 				FA92553A224CE5DB002AB338 /* Sources */,
 				FA92553B224CE5DB002AB338 /* Frameworks */,
 				FA92553C224CE5DB002AB338 /* Resources */,
+				EBBE539385B48B9A88F5CF39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +362,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAA4DC42274E9A90013CAAB /* Plant palm N051017.mtl in Resources */,
+				FAAA4DBD2274E9650013CAAB /* osa_Soil.jpg in Resources */,
+				FAAA4DD422757F4C0013CAAB /* ground.jpg in Resources */,
 				FA92554F224CE5DC002AB338 /* LaunchScreen.storyboard in Resources */,
-				FA92554C224CE5DC002AB338 /* Assets.xcassets in Resources */,
+				FAAA4DD122757F4C0013CAAB /* Concre R.jpg in Resources */,
+				FAAA4DDB22757F590013CAAB /* wood bump.jpg in Resources */,
+				FAAA4DD322757F4C0013CAAB /* Color gr.jpg in Resources */,
+				FAAA4DDD227580C30013CAAB /* 1.scn in Resources */,
+				FAAA4DC22274E97B0013CAAB /* 4.scn in Resources */,
+				FAAA4D6D2274942B0013CAAB /* 5.scn in Resources */,
+				FAAA4DB42274E22D0013CAAB /* 6.scn in Resources */,
+				FAAA4D742274988F0013CAAB /* 8.scn in Resources */,
+				FAAA4DD022757F4C0013CAAB /* opacity.jpg in Resources */,
+				FAAA4D6A227493F80013CAAB /* indoor plant_2_NOR.jpg in Resources */,
+				FAAA4DAC2274E16A0013CAAB /* archibase.net.txt in Resources */,
+				FAAA4DBC2274E9650013CAAB /* osa_Bark.jpg in Resources */,
+				FAAA4DAD2274E16A0013CAAB /* Arch41_017_bark.jpg in Resources */,
+				FAE8E41B2270A44800279B44 /* plant.json in Resources */,
 				FA925547224CE5DB002AB338 /* Main.storyboard in Resources */,
+				FAAA4DB22274E16A0013CAAB /* LFY60055.jpg in Resources */,
+				FAE8E4152270752300279B44 /* vegetable201.mtl in Resources */,
+				FAAA4DB12274E16A0013CAAB /* Arch41_017_bark_bump.jpg in Resources */,
+				FA153000226127DB00F0FB9E /* plants.json in Resources */,
+				FAAA4D69227493F80013CAAB /* indoor plant_2_COL.jpg in Resources */,
+				FAAA4DD522757F4C0013CAAB /* pi4597 b.jpg in Resources */,
+				FAE8E4172270752300279B44 /* grass_texture.jpg in Resources */,
+				FAAA4DD722757F510013CAAB /* 7_1_24_d.jpg in Resources */,
+				FA3BF0572270C90A004C33A7 /* plantAnimation.json in Resources */,
+				FAAA4DDA22757F590013CAAB /* wood.jpg in Resources */,
+				FAAA4DAB2274E16A0013CAAB /* Arch41_037_ground.jpg in Resources */,
+				FAAA4DBF2274E96A0013CAAB /* ant_Leaf.jpg in Resources */,
+				FAAA4DAF2274E16A0013CAAB /* Arch41_017_leaf_bump.jpg in Resources */,
+				FAAA4DC12274E9710013CAAB /* stones.jpg in Resources */,
+				FAAA4DAE2274E16A0013CAAB /* Ground 1.jpg in Resources */,
+				FAAA4DB02274E16A0013CAAB /* Arch41_017_leaf.jpg in Resources */,
+				FAAA4DD222757F4C0013CAAB /* color yl.jpg in Resources */,
+				FAAA4D6B227493F80013CAAB /* indoor plant_2_vl.jpg in Resources */,
+				FAC619C72265E8FE00422D81 /* Assets.xcassets in Resources */,
+				FAAA4DBB2274E9650013CAAB /* Marble_r.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C893CC30FA8AB814810A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IKEAplant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBE539385B48B9A88F5CF39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IKEAplant/Pods-IKEAplant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IKEAplant/Pods-IKEAplant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA92553A224CE5DB002AB338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA152FFC2261215400F0FB9E /* Plant.swift in Sources */,
+				FA152FFE2261231900F0FB9E /* AllPlants.swift in Sources */,
+				FAC619C32265D39600422D81 /* PlantsCollectionViewCell.swift in Sources */,
 				FA925544224CE5DB002AB338 /* ViewController.swift in Sources */,
 				FA925542224CE5DB002AB338 /* AppDelegate.swift in Sources */,
+				FAC619C52265D9DE00422D81 /* HomeViewController.swift in Sources */,
 				FA92554A224CE5DB002AB338 /* IKEAplant.xcdatamodeld in Sources */,
+				FA15300222612D4700F0FB9E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +611,13 @@
 		};
 		FA925554224CE5DC002AB338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85F416ED8180221061FEDA5 /* Pods-IKEAplant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AVC9N72G3U;
-				INFOPLIST_FILE = IKEAplant/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IKEAplant/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +631,13 @@
 		};
 		FA925555224CE5DC002AB338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05977422E78236EF969498CF /* Pods-IKEAplant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AVC9N72G3U;
-				INFOPLIST_FILE = IKEAplant/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IKEAplant/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

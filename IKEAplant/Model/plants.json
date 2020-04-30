@@ -1,0 +1,84 @@
+{
+  "plants":[
+        {
+          "id": 0,
+          "plantName": "Ficus Benjamina",
+          "price": "$4.99" ,
+          "number": "1",
+          "height": "30m",
+          "country": "China",
+          "temperature": "3ºС",
+          "plantable": true
+        },
+        {
+          "id": 1,
+          "plantName": "Areca Palms",
+          "price": "$35.99" ,
+          "number": "2",
+          "height": "10m",
+          "country": "Oerangoetai",
+          "temperature": "9ºС",
+          "plantable": false
+        },
+        {
+          "id": 2,
+          "plantName": "Costa Farms",
+          "price": "$11.99" ,
+          "number": "3",
+          "height": "1m",
+          "country": "Kongo",
+          "temperature": "12ºС",
+          "plantable": false
+        },
+        {
+          "id": 3,
+          "plantName": "Dracaena",
+          "price": "$34.99" ,
+          "number": "4",
+          "height": "68cm",
+          "country": "Austria",
+          "temperature": "16°C",
+          "plantable": true
+        },
+        {
+          "id": 4,
+          "plantName": "Ficus Lyrata",
+          "price": "$2.99" ,
+          "number": "5",
+          "height": "82cm",
+          "country": "Brazilia",
+          "temperature": "10°C",
+          "plantable": true
+        },
+        {
+          "id": 5,
+          "plantName": "Epipremnum",
+          "price": "$21.99" ,
+          "number": "6",
+          "height": "90cm",
+          "country": "Greece",
+          "temperature": "20°C",
+          "plantable": true
+        },
+        {
+          "id": 6,
+          "plantName": "Pachira",
+          "price": "$5.99" ,
+          "number": "7",
+          "height": "80cm",
+          "country": "Portugal",
+          "temperature": "19°C",
+          "plantable": false
+        },
+        {
+          "id": 7,
+          "plantName": "Ravenea Palm",
+          "price": "$37.99" ,
+          "number": "8",
+          "height": "2m",
+          "country": "India",
+          "temperature": "9°C",
+          "plantable": true
+        }
+    ]
+}

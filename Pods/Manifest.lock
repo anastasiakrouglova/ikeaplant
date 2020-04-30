@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (3.0.4)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - lottie-ios (~> 3.0)
+  - SwiftyJSON (~> 4.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - lottie-ios
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  lottie-ios: 55a2de40418f8de2b155efaba4d4d1a025a5c570
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: ed3b343f66435e736ac5b3f34d6fd10c9118b1c5
+
+COCOAPODS: 1.6.1
